@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZeeShan</title>
+    <style>
+        * {
+            color: white;
+        }
+
+        body {
+            background-color: rgb(52 71 122);
+            margin: 0px auto;
+        }
+
+        .navSection {
+            background-color: rgb(70 91 129);
+            height: 55px;
+            display: flex;
+            justify-content: space-between;
+            color: white;
+            padding: 0 9px;
+        }
+
+        .first {
+            margin: 9px 23px;
+            max-height: 50vh;
+            font-size: 1.5rem;
+        }
+
+        .second {
+            width: 35vw;
+        }
+
+        .second ul {
+            display: flex;
+            list-style-type: none;
+            justify-content: space-around;
+        }
+
+        .acnt {
+            max-height: 58%;
+            border: 1px solid white;
+            border-radius: 180px;
+            padding: 5px;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            margin: 5px;
+        }
+
+        .profile-img {
+            margin: 9px 5px;
+        }
+
+        .acnt-info {
+            margin: 9px 7px;
+        }
+
+        section {
+            margin: 10px;
+            background-color: #5e6d8e;
+            min-height: 500px;
+            padding: 15px;
+        }
+
+        .images {
+            margin: 10px;
+            padding:0px 20px;
+        }
+
+        txt-yellow {
+            background-color: #59593c;
+        }
+
+        .f-i img,
+        .s-i img {
+            width: 650px;
+        }
+
+        .t-i img {
+            width: 950px;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        td {
+            margin:0px auto;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="navSection">
+                <div class="first">ZEESHAN</div>
+                <div class="second">
+                    <ul>
+                        <li>About Us</li>
+                        <li>Contact Us</li>
+                        <li>Offers</li>
+                        <li>More</li>
+                    </ul>
+                </div>
+                <div class="acnt"><img class="profile-img" width="25px" src="./images/profile.png" alt="profile pic">
+                    <div class="acnt-info">My accounts & Rewards</div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="main"> A place where people pay to sit and eat meals that are cooked and served on the premises
+        </div>
+        <div class="z-i images"><img src="./images/resturent.jpg" alt=""></div>
+        <div>
+            <h2>Why us?</h2>
+            <ul>
+                <li>We provide you good and <txt-yellow>hygenic food!!</txt-yellow></li>
+            </ul>
+        </div>
+        <div class="f-i images"><img src="./images/food.jpeg" alt=""></div>
+        <ul>
+            <li>We have a <txt-yellow>swimming pool</txt-yellow> inside to enjoy with your family and friends</li>
+        </ul>
+        <div class="s-i images"><img src="./images/resturant pools.jpg" alt=""></div>
+        <h2>Pricing Table</h2>
+        <table>
+            <tr>
+                <th>Stay perday</th>
+                <th>Food charges</th>
+                <th>pool charges</th>
+            </tr>
+            <tr>
+                <td>(On weekdays) 1200 Rs/-</td>
+                <td>1000 Rs/-</td>
+                <td>400 Rs/-</td>
+            </tr>
+            <tr>
+                <td>(On weekenss) 1250 Rs/-</td>
+                <td>1500 Rs/-</td>
+                <td>700 Rs/-</td>
+            </tr>
+        </table>
+        <h2>you can also find us on-</h2>
+        <a href="https://www.fabhotels.com/">fab hotels</a>
+        <br>
+        <div class="t-i images"><img src="./images/fabhotels.PNG" alt=""></div>
+    </section>
+</body>
+
+</html>
